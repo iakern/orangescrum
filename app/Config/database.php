@@ -63,9 +63,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost', //ex. localhost
-		'login' => '', //root
+		'login' => 'root', //root
 		'password' => '',
-		'database' => '',//orangescrum
+		'database' => 'orangescrum',//orangescrum
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

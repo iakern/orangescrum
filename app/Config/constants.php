@@ -49,7 +49,7 @@ if(stristr($_SERVER['SERVER_NAME'], '/') && substr($_SERVER['SERVER_NAME'], -1) 
 	define('DOMAIN', $_SERVER['SERVER_NAME'] . "/");
 }
 /*Subfolder set up */
-define('SUB_FOLDER', '@SUB_FOLDER');
+define('SUB_FOLDER', 'orangescrum/');
 
 define('HTTP_SERVER', PROTOCOL . DOMAIN);
 if(stristr(HTTP_SERVER, '/') && substr(HTTP_SERVER, -1) == '/' && SUB_FOLDER == '/'){
@@ -74,8 +74,8 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 //gmail SMTP
 define("SMTP_HOST", "smtp.sendgrid.net");
 define("SMTP_PORT", "587");
-define("SMTP_UNAME", "apikey");
-define("SMTP_PWORD", "your_password");
+define("SMTP_UNAME", "lukas.kern14@gmail.com");
+define("SMTP_PWORD", "12344321");
 define("SMTP_APIKEY", "");
 
 define("IS_SMTP", 0);
